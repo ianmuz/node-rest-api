@@ -1,7 +1,7 @@
 const express=require('express');
 const router=express.Router();
 const mongoose=require('mongoose');
-const product=require('.../models/products');//First problem,
+const product=require('../routes/products');//First problem,
 
 router.get('/',(req, res, next)=>{
     res.status(200).json({
